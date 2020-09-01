@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang = en>
+<head>
+<title>Fem in STEM</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+<style>
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: "Amatic SC";
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-family: "Amatic SC";
+  font-size: 30px;
+  width: 20%;
+}
+
+/* Style the tab when the cursor is over the tab */
+.tablink:hover {
+  background-color: black;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: black;
+  display: none;
+  padding: 100px 20px;
+  height: auto;
+  text-align: center;
+}
+
+/* Style the background for each tab */
+#Home {background-color: floralwhite;}
+#Ourteam {background-color: floralwhite;}
+#Workshops {background-color: floralwhite;}
+#StudentSignup {background-color: floralwhite;}
+#TutorSignUp {background-color: floralwhite;}
+  
+* {
+  box-sizing: border-box;
+}
+
+/* Header images */
+img { 
+    position: absolute; 
+    left: 0px; 
+    top: 0px;
+    width: 100%;
+    } 
+    
+/* Style the body text */
+body {
+  font-family: "Amatic SC";
+  font-size: 36px;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 110px;
+  background: #e3c8cc;
+  color: white;
+}
+   
+/* Style the footer */
+.footer {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  background-color: #555;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+}
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    margin:200px;
+  background-color: transparent;
+  width: 975px;
+  height: 450px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: #8cb8ff;
+  color: white;
+  transform: rotateY(180deg);
+}
+    
+div.image {
+   content:url(workshops.png);
+    max-width: 100%;
+}
+</style>
+</head>
+<body>
+    
+<!-- Save all images for header scroll to scroll-image -->
+<div id="scroll-image"> 
+        <img src="top2.png" class="test" /> 
+        <img src="top3.png" class="test" /> 
+        <img src="top4.png" class="test" /> 
+        <img src="top5.png" class="test" /> 
+        <img src="top6.png" class="test" />
+        <img src="top7.png" class="test" /> 
+        <img src="top8.png" class="test" /> 
+        <img src="top9.png" class="test" /> 
+        <img src="top10.png" class="test" /> 
+        <img src="top11.png" class="test" /> 
+        <img src="top12.png" class="test" />
+        <img src="top13.png" class="test" />
+        <img src="top14.png" class="test" /> 
+        <img src="top15.png" class="test" /> 
+        <img src="top16.png" class="test" /> 
+        <img src="top17.png" class="test" /> 
+        <img src="top18.png" class="test" />
+        <img src="top19.png" class="test" /> 
+        <img src="top20.png" class="test" />
+        <img src="top21.png" class="test" /> 
+        <img src="top22.png" class="test" /> 
+        <img src="top23.png" class="test" /> 
+        <img src="top24.png" class="test" /> 
+        <img src="top25.png" class="test" /> 
+        <img src="top26.png" class="test" />
+        <img src="top27.png" class="test" /> 
+        <img src="top28.png" class="test" /> 
+        <img src="Top29.png" class="test" /> 
+        <img src="top30.png" class="test" /> 
+        <img src="top31.png" class="test" /> 
+        <img src="top32.png" class="test" />
+        <img src="top33.png" class="test" />
+        <img src="top34.png" class="test" /> 
+        <img src="top35.png" class="test" /> 
+        <img src="top36.png" class="test" /> 
+        <img src="top37.png" class="test" /> 
+        <img src="top38.png" class="test" />
+        <img src="top39.png" class="test" /> 
+        <img src="top40.png" class="test" />
+        <img src="top41.png" class="test" /> 
+        <img src="top42.png" class="test" />
+        <img src="top43.png" class="test" />
+        <img src="top44.png" class="test" /> 
+        <img src="top45.png" class="test" /> 
+        <img src="top46.png" class="test" /> 
+        <img src="top47.png" class="test" /> 
+        <img src="top48.png" class="test" />
+        <img src="top49.png" class="test" /> 
+        <img src="top1.png" class="test" /> 
+    </div> 
+      
+    <script> 
+        //For the header scroll
+        window.onload = function() { 
+       
+            // Index of current image which is on display 
+            var imageIndex = 0; 
+       
+            // Object array of all the images of class test 
+            var images = document.getElementsByClassName('test'); 
+       
+            // This tells us if mouse if over image or not, We only change image if mouse if over it 
+            var isMouseOverImage = false; 
+            
+            // Object of parent element  containing all images 
+            var scrollImages = document.getElementById('scroll-image'); 
+       
+            // Stores the current scoll co-ordinates so that the window don't scroll down while scrolling the images 
+            var x, y; 
+       
+            // This function sets the scroll to x, y 
+            function noScroll() { 
+                window.scrollTo(x, y); 
+            } 
+       
+            // The following event id fired once when we hover mouse over the images 
+            scrollImages.addEventListener("mouseenter", function() { 
+       
+                // We store the current page offset to x,y 
+                x = window.pageXOffset; 
+                y = window.pageYOffset; 
+       
+                // We add the following event to window object, so if we scroll down after mouse is over the  image we can avoid // scrolling the window 
+                window.addEventListener("scroll", noScroll); 
+                  
+                // We set isMouseOverImage to true, this means Mouse is now over the iamge 
+                isMouseOverImage = true; 
+            }); 
+       
+            // The following function is fired when mouse is no longer over the images 
+            scrollImages.addEventListener( 
+                    "mouseleave", function() { 
+       
+                // We set isMouseOverImage to false, this means mouse is not over the iamge 
+                isMouseOverImage = false; 
+       
+                // We remove the event we previously added because we are no longer over the image, the scroll will now scroll // the window 
+                window.removeEventListener( 
+                            "scroll", noScroll); 
+            }); 
+       
+            // The following function is called when we move mouse wheel over the images 
+            scrollImages.addEventListener("wheel", function(e) { 
+                                  
+                // We check if we are over the image or not 
+                if (isMouseOverImage) { 
+                    var nextImageIndex; 
+       
+                    // The following condition finds the next image index depending if we scroll up or scroll down 
+                    if (e.deltaY > 0) 
+                        nextImageIndex = (imageIndex + 1) 
+                                         % images.length; 
+                    else
+                        nextImageIndex =  
+                                (imageIndex - 1 
+                                + images.length) 
+                                % images.length; 
+       
+                    // We set the z index of current image to 0 
+                    images[imageIndex].style.zIndex = "0"; 
+                          
+                    // We set the z index of next image to 1, this makes the new image appear on top of old image 
+                    images[nextImageIndex].style.zIndex = "1"; 
+                    imageIndex = nextImageIndex; 
+                } 
+            }); 
+        } 
+        //End of the header scroll
+    </script> 
+    
+<!-- Header background -->
+<div class="header"></div> 
+    
+<!-- Tabs -->
+<button class="tablink" onclick="openPage('Home', this, 'lightpink')" id = "defaultOpen">Home</button>
+<button class="tablink" onclick="openPage('Ourteam', this, 'lightpink')">Our Team</button>
+<button class="tablink" onclick="openPage('Workshops', this, 'lightpink')">Workshops</button>
+<button class="tablink" onclick="openPage('StudentSignup', this, 'lightpink')">Student Sign-up</button>
+    <button class="tablink" onclick="openPage('TutorSignup', this, 'lightpink')">Tutor Application</button>
+
+<!-- Home tab content -->
+<div id="Home" class="tabcontent">
+  <h3>"Empowering young women to become the future of STEM through mentoring and tutoring from fellow high school students with a passion for STEM" </h3>
+  <p>Grades 6 - 12</p>
+    <h3>_______________</h3>
+    <h3>Why?</h3>
+    <p>The percentage of women with STEM degrees has decreased from 25% to 24%</p>
+    <p>There is a persistent gender gap despite increasing STEM degrees in women</p>
+    <p>Women in STEM jobs are paid an average of 89 cents for each dollar that a man in STEM makes</p>
+</div>
+
+<!-- Our Team tab content -->
+<div id="Ourteam" class="tabcontent">
+  <h3>Our Team</h3>
+    <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="ashley.png" alt="Ashley" style="width:975px;height:450px;">
+    </div>
+    <div class="flip-card-back">
+      <p><small>Ashley Goh is a current junior at Nashua High School North. She has a passion for computer science and first learned Javascript in sixth grade. From there, she has learned Python 2, Bootstrap, HTML, CSS, and Java. Using her experience, she developed this website in addition to drawing the images. By starting Fem in STEM, Ashley hopes to give other females the opportunity to have an early start in STEM as she did, and find their passion.
+        </small></p><p><small>
+    Ashley has worked as a soccer referee for three years. She also has experience in software, mechanical, and electrical engineering as a team mentor in BAE Systems' FOCUS Program. She has also tutored students in computer science through Digitize Hackathon's Mentorship Program.</small></p>
+    </div>
+  </div>
+</div>
+    
+    <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="anjali.png" alt="Anjali" style="width:975px;height:450px;">
+    </div>
+    <div class="flip-card-back">
+      <p><small>Anjali is currently a junior at Green Level High School. She is passionate about both math and science and hopes more women can also find an interest in it, too. Anjali hopes that young girls will get exposed to a wide variety of STEM careers through Fem in STEM. 
+
+
+        </small></p><p><small>
+    In school, Anjali enjoys participating in HOSA, Quiz Bowl, Photography Club, and Key Club. Anjali plays the piano, which she has been doing for almost 8 years. She also has 3 years of experience as a math tutor for children aged 5 to 14. For fun, she enjoys going on walks and watching Netflix. </small></p>
+    </div>
+  </div>
+</div>
+    
+    <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="aisha.png" alt="Aisha" style="width:975px;height:450px;">
+    </div>
+    <div class="flip-card-back">
+      <p><small>Aisha KC is currently a junior at Nashua High School North. She is passionate about creating media for others to enjoy. Aisha has not decided what path she would like to take in the future, but she is interested in biology and is dabbling in the medical field.
+
+        </small></p><p><small>
+    She is passionate about making videos and uploads her work to her Youtube channel. In addition, she enjoys spending time with friends, supporting others in their dreams, making others feel better, and skateboarding. She has also attended an acting and modeling convention in Las Vegas to pursue her dreams of modeling and received contacts from 21 agents. She chose to take part in Fem in STEM because it is a good opportunity to showcase her media skills and also supports a cause she is passionate about. </small></p>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- Workshops tab content -->
+<div id="Workshops" class="tabcontent">
+  <h3>Workshops</h3>
+  <p>Workshops are short courses that cover a specific topic. Unlike our one-on-one tutoring option, workshops are taught in groups. Workshops should last around an hour, give or take 15 minutes. All workshops and services provided by Fem in STEM are voluntary and free. Feel free to email us at feminstemprogram@gmail.com if you have any questions or feedback!</p>
+    <div class="image"></div>
+    <h1></h1>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScdCgciud67Vt4AL-GhPJK-W2MCqhLIm1d-q1cuaMVRjDZwjw/viewform?embedded=true" width="640" height="750" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    
+</div>
+
+<!-- Student Sign up tab content -->
+<div id="StudentSignup" class="tabcontent">
+  <h3>Student Sign-up</h3>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfg5063u8jX0XKSrA6oMrIwh7qqexkz-_c_t4ZasKa_8GmCTw/viewform?embedded=true" width="640" height="750" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</div>
+    
+    <!-- Student Sign up tab content -->
+<div id="TutorSignup" class="tabcontent">
+  <h3>Tutor Sign-up</h3>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdZyT8dkIFXx5cW3GgXoTB-vmZvFa_ld4jA_h_CPXa4Msqxmw/viewform?embedded=true" width="640" height="750" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</div>
+
+<script>
+//this function displays the corresponding content when a tab is clicked on
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+    
+//end of tab changes
+</script>
+    
+<!-- Footer -->
+<div class="footer">
+    <p>Original work by Ashley Goh</p>
+    <p>© 2020 Fem in STEM. All rights reserved.</p>
+</div>
+</body>
+</html>
